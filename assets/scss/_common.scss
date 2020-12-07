@@ -25,11 +25,20 @@ h1
 
         margin: 0 0 ($gap * 2);
     }
+
+    &::after {
+        position: absolute;
+        width: 100%;
+        margin: 0.85em 0 0 15px;
+        content: "";
+        border-bottom: 3px solid rgba(240, 173, 79, 0.7);
+    }
 }
 
 h2
 {
     font-family: $font-header;
+    padding-left: 45px;
 
     @include xs-min
     {
@@ -42,6 +51,23 @@ h2
         font-size: 2rem;
 
         margin: 0 0 ($gap * 2);
+    }
+
+    &::before {
+        position: absolute;
+        left: 0;
+        width: 30px;
+        margin: 0.25em 0 0 0;
+        content: "";
+        border-top: 3px solid rgba(240, 173, 79, 0.7);
+    }
+
+    &::after {
+        position: absolute;
+        width: 100%;
+        margin: 0.85em 0 0 15px;
+        content: "";
+        border-bottom: 3px solid rgba(240, 173, 79, 0.7);
     }
 }
 
