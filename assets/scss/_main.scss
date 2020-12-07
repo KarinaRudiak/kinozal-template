@@ -64,3 +64,11 @@
         }
     }
 }
+
+.new-films-item__thumbnail {
+    &:focus,
+    &:hover {
+        background-color: $color-accent;
+    }
+}
+

@@ -201,6 +201,10 @@ section {
   margin: 0;
 }
 
+.new-films-item__thumbnail:focus, .new-films-item__thumbnail:hover {
+  background-color: #df8a13;
+}
+
 .film-info__well {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
