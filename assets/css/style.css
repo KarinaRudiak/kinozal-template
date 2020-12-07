@@ -201,6 +201,33 @@ section {
   margin: 0;
 }
 
+.film-info__well {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.film-info__wrapper {
+  white-space: nowrap;
+  font-size: 1.2em;
+}
+
+.film-info__wrapper:not(:last-of-type) {
+  margin-right: 15px;
+}
+
+.film-info__badge {
+  font-size: 0.8em;
+}
+
+.well {
+  border-color: #dddddd;
+  background-color: #f1f1f1;
+}
+
+.film-comment-form__button {
+  float: right;
+}
+
 .left-sidebar .panel:last-of-type {
   margin-bottom: 0;
 }
