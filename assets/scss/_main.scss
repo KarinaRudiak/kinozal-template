@@ -47,28 +47,62 @@
     }
 }
 
-.film-news {
-    &-item {
-        &__text {
+.film-news
+{
+    img
+    {
+        width: 100%;
+    }
+
+    h3 > a
+    {
+        transition: color .25s ease;
+    }
+
+    &-item
+    {
+        &:hover
+        {
+            .thumbnail
+            {
+                background-color: $color-light;
+            }
+
+            h3 > a
+            {
+                color: $color-accent;
+            }
+
+            .btn-warning
+            {
+                background-color: $color-accent;
+            }
+
+            .thumbnail
+            {
+                border-color: $color-accent;
+                background-color: $color-accent;
+            }
+        }
+
+        &__text
+        {
             text-align: justify;
         }
-
-        &__button {
-            float: right;
-            margin-bottom: 30px;
-            transition: background-color 0.25s;
-        }
-
-        &__thumbnail {
-            margin: 0;
-        }
     }
-}
 
-.new-films-item__thumbnail {
-    &:focus,
-    &:hover {
-        background-color: $color-accent;
+    .btn-warning
+    {
+        float: right;
+
+        margin-bottom: 30px;
+
+        transition: background-color .25s ease;
+    }
+
+    .thumbnail
+    {
+        margin-bottom: 0;
     }
 }
 

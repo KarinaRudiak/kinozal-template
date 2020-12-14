@@ -1,27 +1,36 @@
-footer {
-  color: $color-light;
-  background-color: $color-dark;
-  padding-top: 45px;
+footer
+{
+    padding-top: 45px;
 
-  ul {
-    padding: 0;
-    list-style: none;
-  }
+    color: $color-light;
+    background-color: $color-dark;
 
-  a {
-    color: #777777;
+    ul
+    {
+        padding: 0;
 
-    &:hover {
-      color: white;
+        list-style: none;
     }
-  }
 
-  .footer-fifth {
-    margin: 20px 0;
-    text-align: center;
+    a
+    {
+        color: #777;
 
-    a {
-      color: #fbfbfb;
+        &:hover
+        {
+            color: white;
+        }
     }
-  }
+
+    .footer-fifth
+    {
+        margin: 20px 0;
+
+        text-align: center;
+
+        a
+        {
+            color: #fbfbfb;
+        }
+    }
 }
